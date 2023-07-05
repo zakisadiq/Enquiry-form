@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <style>
+        .apple-logo {
+            width: 150px;
+            height: 100px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+
+        }
+
+        h1 {
+            font-size: 60px;
+            font-style: italic;
+        }
+
+        body {
+            background-color: rgb(185, 180, 180);
+        }
+
+
+        .outer-box {
+            height: 700px;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .left-box {
+            height: 600px;
+            width: 1000px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bolder;
+        }
+
+        .right-box {
+            padding: 20px;
+            /* border-box:; */
+            height: 500px;
+            width: 700px;
+            background-color: rgb(185, 180, 180);
+
+        }
+
+        .right-box img {
+            width: 100%;
+        }
+
+        legend {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        fieldset {
+            width: 64%;
+            padding: 30px;
+            border: 2px solid black
+        }
+
+        .wrap {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            font-size: 34px;
+            color: purple;
+        }
+
+        button {
+            padding: 10px 30px;
+            color: purple;
+            font-size: 25px;
+            font-style: italic;
+        }
+        legend{
+            color: purple;
+        }
+        .black{
+            color: black;
+            font-size: 23px;
+        }
+        .size{
+            height:20px;
+            width:250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header"><img class="apple-logo"
+            src="https://freepngimg.com/download/apple_logo/26045-5-apple-logo-transparent-background.png">
+        <h1>Appple-official site</h1>
+    </div>
+    <div class="outer-box">
+        <div class="left-box">
+            <fieldset>
+                <legend>Enquiry Form</legend>
+                <form action="">
+                    <div class="wrap">
+                        Name : <input type="text" class="size">
+                    </div>
+                    <div class="wrap">
+                        Contact: <input type="number" class="size">
+                    </div>
+                    <div class="wrap">
+                        Email : <input type="email"class="size">
+                    </div>
+
+                    <div class="wrap">
+                        Interest : <input type="checkbox"><span class="black ">Iphone</span>   <input type="checkbox"> <span class="black ">Ipad</span> <input type="checkbox">
+                        <span class="black ">macbook</span>
+
+                    </div>
+
+                    <div class="wrap">
+                        <button>Submit</button>
+                    </div>
+
+                </form>
+            </fieldset>
+        </div>
+        <div class="right-box">
+            <img src="./90273E50-D559-4BD2-B606-20A61D718B5B.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
